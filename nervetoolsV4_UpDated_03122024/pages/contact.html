@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- to make it responsive -->
+
+    <meta name="description" content="List of products offered by Nervetools  ">
+    <meta name="keywords" content="HiGreenTech, Nervetools, tools for neuroscience, Marcelo Aguilar Rivera ">
+    <meta name="author" content="Paulina Segovia, Marcelo Aguilar Rivera">
+
+    <title>Nervetools by Hi Green Tech</title>
+      <!-- GOOGLE FONTS -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700;800&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+  
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+      <!-- STYLES -->
+      <link rel="stylesheet" href="../css/reset.css">
+      <link rel="stylesheet" href="../css/main.css">
+      
+      <script src="../scripts/script.js" async></script>
+   
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding"> <img src="images/Logo.svg" alt="Nerve tools logo"></a>
+        
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+           </li>
+           <li>
+            <a href="../pages/products.html"  class="nav-link">Catalog</a>
+           </li>
+           <li><a href="#" class="nav-link">Contact</a></li>
+        </ul> 
+          
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>  
+     
+      </nav>
+    </header>
+      
+        <main>
+          <article class="contactForm">
+            <h1>We'd love to hear from you</h1>
+
+            <div id="simpleForm">
+              <p>If you have any questions or need help, please email us.</p>
+              <p>We look forward to hearing from you.</p>
+              <p >Email us at <a href="mailto:aguilarr_m@hotmail.com" class="inLink">aguilarr_m@hotmail.com</a></p>
+            </div>
+          </article>
+            
+            <!-- FORM using MAILTO is mixed content, it is a non-secure form because it targets an insecure endpoint 'mailto:aguilarr_m@hotmail.com'. I found a way to fix it using PHP. In the meantime, I'll change the CONTACT US page for a simple email contact info. -->
+<!-- 
+            <form id="contactUs" action="mailto:aguilarr_m@hotmail.com?subject=Mail from Nervetools" method="get" enctype="text/plain"> -->
+              
+              <!-- replace all fieldset for div -->
+               <!-- <div class="personalInfo"> 
+                <legend>Your personal information</legend>
+                <ul>
+                  <li>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="first_name" id="firstName" placeholder="Enter your name" required>
+                    <span class="rSign">*</span>
+                  </li>
+                  <li>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="last_name" id="lastName" placeholder="Enter your last name" required>
+                    <span class="rSign">*</span>
+                  </li>
+                 
+                  <li id="Email">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="name@domain.com" required> <span class="rSign">*</span>
+                  </li>
+                 
+                </ul>
+        
+              </div>
+        
+              <div>
+              
+                    <ul>   
+                      <li>
+                      <label for="message"> Leave us a message:</label>
+                      <textarea name="message" id="message" placeholder="Leave us a message with your question here."></textarea>
+                      </li>
+                    </ul>
+        
+                  </div>
+        
+              <p id="required"> * indicates required field </p> -->
+        <!-- name attribute added to the submit input -->
+              <!-- <input type="submit" id="submit" name="submit" value="Submit">
+            </form>
+        
+          <p>If you prefer to send us a direct message, our email address is:<a href="mailto:aguilarr_m@hotmail.com" class="email"> aguilarr_m@hotmail.com</a></p>
+          </article>
+         -->
+  
+        </main>
+    
+       <footer>
+        <div>
+          <p class="designDeveloper"> Website designed by <a class="designDeveloper"
+            href="https://trishdaugherty.com/" target="_blank">Trish Daugherty </a> </p>
+          <p class="designDeveloper"> Website developed by <a class="designDeveloper" href="https://www.linkedin.com/in/paulina-segovia-candia/" target="_blank">Paulina Segovia Candia </a> </p>
+          <p class="copy">&copy; NerveTools 2023 Santiago Chile</p>
+        </div>
+      </footer>
+    </body>
+
+
+  </html>
