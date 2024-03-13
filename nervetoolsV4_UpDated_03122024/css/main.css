@@ -136,14 +136,17 @@
   font-size: 1em;
 }
 
+
+
 .nav-link:hover {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   padding: .5em;
 }
 
-.nav-link:active {
-  color: #B232BD;
+/******* why the active selector is not working?  */
+.current {
+  color: var(--tertiary-color);
 }
 
 .hamburger {
@@ -495,11 +498,6 @@ footer a:hover {  color: var(--tertiary-color); }
     left: 0;
   }
 
-  /* .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  } */
 }
 
 
